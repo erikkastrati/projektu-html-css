@@ -1,0 +1,1295 @@
+#wrapper .top {
+  background: #f2a45c;
+}
+#wrapper .top .top-header {
+  display: flex;
+  justify-content: space-between;
+}
+#wrapper .top .top-header .quote p,
+#wrapper .top .top-header .contact_numb p {
+  margin: 5px 0;
+  color: #000000;
+  font-size: 18px;
+}
+#wrapper .top .top-header .quote p span,
+#wrapper .top .top-header .contact_numb p span {
+  font-weight: 700;
+}
+#wrapper .top .top-header .quote p img,
+#wrapper .top .top-header .contact_numb p img {
+  margin-top: -3px;
+  padding-right: 4px;
+  color: black;
+}
+#wrapper .top .top-header .contact_numb {
+  display: none;
+}
+#wrapper #header {
+  width: 100%;
+  background: rgba(218, 218, 218, 0.46);
+}
+#wrapper #header .logo img {
+  padding: 10px;
+}
+#wrapper #header .hamburger {
+  display: none;
+}
+#wrapper #header #mymenu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+#wrapper #header #mymenu li {
+  list-style: none;
+  margin-top: 4px;
+  padding: 10px;
+}
+#wrapper #header #mymenu li a {
+  text-decoration: none;
+  color: #292929;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+#wrapper #banner {
+  width: 100%;
+  height: 80vh;
+}
+#wrapper #banner .offer_banner_mobile {
+  display: none;
+}
+#wrapper #banner .offer_banner_mobile p {
+  color: white;
+  padding: 10px 12px;
+}
+#wrapper #banner .banner_photomob {
+  display: none;
+}
+#wrapper #banner .offer_banner {
+  margin-top: 50px;
+  position: relative;
+  width: 85%;
+  z-index: 99;
+}
+#wrapper #banner .offer_banner p {
+  color: white;
+  padding: 20px 12px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+#wrapper #banner .offer_banner ::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  background: #4a4945;
+  z-index: -1;
+}
+#wrapper #banner .academy {
+  margin-top: 20px;
+}
+#wrapper #banner .academy .title_academymob {
+  display: none;
+}
+#wrapper #banner .academy .title_academy {
+  margin-bottom: 25px;
+}
+#wrapper #banner .academy .title_academy h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+#wrapper #banner .academy .title_academy h4 .arrow {
+  font-weight: 900;
+  color: blue;
+}
+#wrapper #banner .academy .informations .info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 10px;
+}
+#wrapper #banner .academy .informations .info p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+#wrapper #banner .academy .informations .register {
+  margin-top: 20px;
+}
+#wrapper #banner .academy .informations .register span {
+  color: #5697e0;
+}
+#wrapper #banner .academy .informations .register-now button {
+  color: white;
+  width: 144px;
+  border: none;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #6d63e1 0%, #477bff 51.56%, #5697e0 91.67%);
+  border-radius: 10px;
+}
+#wrapper #banner .academy .img-right {
+  margin-top: 120px;
+  position: relative;
+  margin-left: 10px;
+  z-index: 101;
+}
+#wrapper #banner .academy .img-right img {
+  position: relative;
+}
+#wrapper #banner .academy .img-right ::after {
+  position: absolute;
+  content: "";
+  margin-top: -120px;
+  margin-left: 90px;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 470px;
+  z-index: -1;
+  background: linear-gradient(147.81deg, #031c43 9.83%, rgba(39, 103, 163, 0.7) 96.36%);
+}
+#wrapper #main_page {
+  width: 100%;
+  background: url(/images/backgroun-mainpage.png);
+  position: relative;
+}
+#wrapper #main_page #middle-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 14px;
+  background: #031c43;
+  padding: 15px 14px;
+}
+#wrapper #main_page #middle-nav li {
+  list-style-type: none;
+}
+#wrapper #main_page #middle-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  line-height: 34px;
+}
+#wrapper #main_page #middle-navmob {
+  display: none;
+}
+#wrapper #main_page #titleof_mainpage {
+  margin-top: 50px;
+}
+#wrapper #main_page #titleof_mainpage .titlemainstyle {
+  margin-bottom: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+#wrapper #main_page .card_mainpage {
+  width: 100%;
+  margin-bottom: 60px;
+}
+#wrapper #main_page .card_mainpage .box {
+  background: #48719b;
+  border-radius: 10px;
+  width: 294px;
+  height: 143px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#wrapper #main_page .card_mainpage .box .head_card {
+  margin-top: 20px;
+}
+#wrapper #main_page .card_mainpage .box .head_card h4 {
+  color: white;
+  text-align: center;
+}
+#wrapper #main_page .card_mainpage .box .body_card {
+  width: 75%;
+}
+#wrapper #main_page .card_mainpage .box .body_card p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #fff;
+}
+#wrapper #main_page .content_whatcareer {
+  width: 100%;
+}
+#wrapper #main_page .content_whatcareer .title_whatcareer {
+  margin-bottom: 60px;
+}
+#wrapper #main_page .content_whatcareer .title_whatcareer h5 {
+  font-size: 35px;
+}
+#wrapper #main_page .content_whatcareer .careerpathphoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+#wrapper #main_page .content_whatcareer .careerpathphoto img {
+  width: 700px;
+}
+#wrapper .frontendtobackend {
+  margin-bottom: 120px;
+  background: url(/images/backgroun-mainpage.png);
+}
+#wrapper .frontendtobackend .title_frontoback {
+  margin-bottom: 40px;
+}
+#wrapper .frontendtobackend .title_frontoback h3 span {
+  background: #2357a9;
+  background: radial-gradient(circle farthest-corner at center center, #2357a9 100%, #446d96 66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#wrapper .frontendtobackend .coding img {
+  width: 80%;
+}
+#wrapper .frontendtobackend .list-paragraph {
+  margin-bottom: 100px;
+}
+#wrapper .frontendtobackend .list-paragraph .info-front {
+  width: 90%;
+  margin-top: 19px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+#wrapper #boxes_students {
+  background: #031c43;
+  margin-bottom: 87px;
+}
+#wrapper #boxes_students .title_academystudents {
+  margin-top: -150px;
+  text-align: center;
+  position: relative;
+}
+#wrapper #boxes_students .mobile_slider {
+  display: none;
+}
+#wrapper #boxes_students .boxes,
+#wrapper #boxes_students .boxes1 {
+  width: 364px;
+  height: 337px;
+  margin-top: -50px;
+  margin-bottom: 80px;
+  padding: 10px;
+  background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 9px, transparent 9px) 0% 0%/10px 10px no-repeat, radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 9px, transparent 9px) 100% 0%/10px 10px no-repeat, radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 9px, transparent 9px) 0% 100%/10px 10px no-repeat, radial-gradient(circle at 0 0, #ffffff 0, #ffffff 9px, transparent 9px) 100% 100%/10px 10px no-repeat, linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 2px) calc(100% - 20px) no-repeat, linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 20px) calc(100% - 2px) no-repeat, linear-gradient(90deg, #f2a45c 0%, #6193c0 100% 100%);
+  border-radius: 10px;
+  padding: 4px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 95;
+}
+#wrapper #boxes_students .boxes::after,
+#wrapper #boxes_students .boxes1::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(/images/background-boxstudent.png);
+  z-index: -1;
+}
+#wrapper #boxes_students .boxes .image,
+#wrapper #boxes_students .boxes1 .image {
+  padding: 14px 20px;
+}
+#wrapper #boxes_students .boxes .fullname,
+#wrapper #boxes_students .boxes1 .fullname {
+  padding: 14px 20px;
+  position: relative;
+}
+#wrapper #boxes_students .boxes .fullname h6,
+#wrapper #boxes_students .boxes1 .fullname h6 {
+  color: white;
+  font-size: 24px;
+  line-height: 34px;
+  position: relative;
+}
+#wrapper #boxes_students .boxes .fullname h6::after,
+#wrapper #boxes_students .boxes1 .fullname h6::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -10px;
+  width: 50%;
+  height: 2px;
+  background-color: #fff;
+}
+#wrapper #boxes_students .boxes .quote,
+#wrapper #boxes_students .boxes1 .quote {
+  width: 303px;
+  padding: 0px 20px;
+}
+#wrapper #boxes_students .boxes .quote p,
+#wrapper #boxes_students .boxes1 .quote p {
+  color: white;
+}
+#wrapper #orientedprogram {
+  background: url(/images/backgroun-mainpage.png);
+  background-position: center;
+  margin-bottom: 100px;
+}
+#wrapper #orientedprogram .title-oriented h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+#wrapper #orientedprogram .desktop_success {
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 65px;
+}
+#wrapper #orientedprogram .mobile_success {
+  display: none;
+}
+#wrapper #orientedprogram .paragraphs .paragraphs_cols {
+  margin: 0 20px;
+}
+#wrapper #orientedprogram .paragraphs .paragraphs_cols .title_paragraph1 {
+  width: 254px;
+  margin-bottom: 37px;
+}
+#wrapper #orientedprogram .paragraphs .paragraphs_cols .title_paragraph1 h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  position: relative;
+}
+#wrapper #orientedprogram .paragraphs .paragraphs_cols .title_paragraph1 h4::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -10px;
+  width: 70%;
+  height: 4px;
+  background: #284b74;
+}
+#wrapper #orientedprogram .paragraphs .paragraphs_cols .description p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+#wrapper #orientedprogram .paragraphs .paragraphs_cols .description p span {
+  margin-top: 10px;
+}
+#wrapper #curriculum {
+  background: url(/images/Frame\ 19193.png);
+  position: relative;
+}
+#wrapper #curriculum .title-curriculum {
+  margin: 60px 0;
+}
+#wrapper #curriculum .title-curriculum h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 14px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+#wrapper #curriculum .title-curriculum p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 14px;
+  color: #fff;
+}
+#wrapper #curriculum .accordion {
+  margin-bottom: 159px;
+}
+#wrapper #curriculum .accordion .accordion-item {
+  background: #48719b;
+  margin-bottom: 20px;
+}
+#wrapper #curriculum .accordion .accordion-item .accordion-header {
+  margin-top: 30px;
+  margin-left: 50px;
+  position: relative;
+}
+#wrapper #curriculum .accordion .accordion-item .accordion-header .accordion-button {
+  position: relative;
+}
+#wrapper #curriculum .accordion .accordion-item .accordion-button {
+  background: #48719b;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  background: linear-gradient(269.84deg, #aac2dc 49.86%, #56bfe0 67.4%, #aac2dc 101.66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#wrapper #curriculum .accordion .accordion-item .accordion-body {
+  margin-left: 50px;
+}
+#wrapper #curriculum .accordion .accordion-item .accordion-body .title-accordion {
+  width: 350px;
+  background-color: white;
+}
+#wrapper #curriculum .accordion .accordion-item .accordion-body .title-accordion h4 {
+  padding: 10px 12px;
+}
+#wrapper #curriculum .accordion .accordion-item .accordion-body ul li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+#wrapper #projects {
+  background: url(/images/backgroun-mainpage.png);
+  margin-top: 79px;
+  margin-bottom: 60px;
+}
+#wrapper #projects .title_practical h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+#wrapper #projects .title_practical h4 span {
+  color: #f2a45c;
+}
+#wrapper #projects .throughout {
+  margin-top: 45px;
+  margin-bottom: 35px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+#wrapper #projects .practicalcard {
+  width: 6x84px;
+  margin: 0px auto;
+  height: 107px;
+  padding: 15px;
+  margin-bottom: 5px;
+  background: #ffffff;
+  border: 3px solid #f2a45c;
+  border-radius: 10px;
+}
+#wrapper #projects .practicalcard ul li {
+  list-style: none;
+  position: relative;
+}
+#wrapper #projects .practicalcard ul li::after {
+  position: absolute;
+  content: "";
+  top: -7px;
+  left: -15px;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #6193c0;
+  border-radius: 50%;
+}
+#wrapper #projects .practicalcard .head-practicalcard {
+  padding-left: 47px;
+  display: flex;
+  justify-content: baseline;
+}
+#wrapper #projects .practicalcard .text-practical {
+  padding-left: 47px;
+}
+#wrapper #projects .practicalcard .text-practical p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+#wrapper #lecturer {
+  background: url(/images/Rectangle\ 43.png);
+  background-size: cover;
+  position: relative;
+  z-index: 75;
+  padding: 25px 0 60px 0;
+}
+#wrapper #lecturer h1 {
+  margin-bottom: 30px;
+  color: white;
+}
+#wrapper #lecturer::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/images/background-lecturer.png);
+  background-size: cover;
+  z-index: -1;
+  background-size: cover;
+}
+#wrapper #lecturer .box-lecturer {
+  background: url(/images/lecturer-boxbackground.png) no-repeat;
+  background: rgba(3, 28, 67, 0.59);
+  border: 3px solid #6193c0;
+  border-radius: 10px;
+  padding: 15px;
+}
+#wrapper #lecturer .box-lecturer .heading-lecturer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#wrapper #lecturer .box-lecturer .heading-lecturer h5 {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  position: relative;
+}
+#wrapper #lecturer .box-lecturer .heading-lecturer h5::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -10px;
+  width: 210px;
+  height: 6px;
+  background-color: white;
+}
+#wrapper #lecturer .box-lecturer .lecturer-paragraph {
+  display: block;
+}
+#wrapper #lecturer .box-lecturer .lecturer-paragraph p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+#wrapper #lecturer .box-lecturer .mobile-lecturerp {
+  display: none;
+}
+#wrapper #offers {
+  background: url(/images/backgroun-mainpage.png);
+  margin-bottom: 86px;
+}
+#wrapper #offers .title-offer {
+  margin-top: 99px;
+  margin-bottom: 62px;
+}
+#wrapper #offers .title-offer h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  text-align: center;
+}
+#wrapper #offers .title-offer h4 span {
+  color: #65a9db;
+}
+#wrapper #offers .mostpopular {
+  background: #65a9db;
+  border-radius: 10px 10px 0px 0px;
+  width: 479px;
+  margin-bottom: -5px;
+}
+#wrapper #offers .mostpopular h3 {
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 7px 15px;
+}
+#wrapper #offers .box-offer1 {
+  margin-top: 42px;
+  padding-bottom: 170px;
+}
+#wrapper #offers .boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrapper #offers .box-offer1,
+#wrapper #offers .box-offer2 {
+  width: 479px;
+  height: 953px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #0c3b83;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: all 0.7s ease;
+}
+#wrapper #offers .box-offer1 .rotatedleft,
+#wrapper #offers .box-offer2 .rotatedleft {
+  position: absolute;
+  left: -30px;
+  top: 0;
+  background: #f2a45c;
+  border-radius: 10px;
+  transform: rotate(-25deg);
+  padding: 12px 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #000000;
+}
+#wrapper #offers .box-offer1 .rotatedright,
+#wrapper #offers .box-offer2 .rotatedright {
+  position: absolute;
+  right: -20px;
+  top: -55px;
+  background: #f2a45c;
+  border-radius: 10px;
+  transform: rotate(15deg);
+  padding: 10px 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #000000;
+}
+#wrapper #offers .box-offer1 .title-justacademy,
+#wrapper #offers .box-offer2 .title-justacademy {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-left: 32px;
+}
+#wrapper #offers .box-offer1 .title-justacademy h4,
+#wrapper #offers .box-offer2 .title-justacademy h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  color: #000000;
+}
+#wrapper #offers .box-offer1 .title-justacademy h4 span,
+#wrapper #offers .box-offer2 .title-justacademy h4 span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #0c3b83;
+}
+#wrapper #offers .box-offer1 .hour,
+#wrapper #offers .box-offer2 .hour {
+  margin-left: 32px;
+  margin-bottom: 35px;
+  background: #a5eaee;
+  width: 216px;
+  height: 64px;
+  padding: 9px 20px;
+}
+#wrapper #offers .box-offer1 .hour p,
+#wrapper #offers .box-offer2 .hour p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: 44px;
+  color: #000000;
+}
+#wrapper #offers .box-offer1 .bluebox,
+#wrapper #offers .box-offer2 .bluebox {
+  width: 423px;
+  height: 223px;
+  margin-left: 32px;
+  background: linear-gradient(250.26deg, #0b1676 32.92%, #0d5bb2 58.68%, #6b9ecf 100%);
+  border: 3px solid #f2a45c;
+  border-radius: 10px;
+}
+#wrapper #offers .box-offer1 .bluebox p,
+#wrapper #offers .box-offer2 .bluebox p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 10px 15px;
+  color: #ffffff;
+  padding: 19px 20px;
+}
+#wrapper #offers .box-offer1 .offerp,
+#wrapper #offers .box-offer2 .offerp {
+  margin-top: 20px;
+}
+#wrapper #offers .box-offer1 .offerp p,
+#wrapper #offers .box-offer2 .offerp p {
+  margin-left: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+#wrapper #offers .box-offer1 .offerp2,
+#wrapper #offers .box-offer2 .offerp2 {
+  margin-top: 20px;
+}
+#wrapper #offers .box-offer1 .offerp2 p,
+#wrapper #offers .box-offer2 .offerp2 p {
+  margin-left: 32px;
+  margin-bottom: 35px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+#wrapper #offers .box-offer1:hover,
+#wrapper #offers .box-offer2:hover {
+  background: #031c43;
+}
+#wrapper #offers .box-offer1:hover .title-justacademy h4,
+#wrapper #offers .box-offer2:hover .title-justacademy h4 {
+  color: white;
+}
+#wrapper #offers .box-offer1:hover .offerp p,
+#wrapper #offers .box-offer2:hover .offerp p {
+  color: white;
+}
+#wrapper #offers .box-offer1:hover .offerp2 p,
+#wrapper #offers .box-offer2:hover .offerp2 p {
+  color: white;
+}
+#wrapper #offers .apply_scholarship {
+  margin-top: 86px;
+  margin-bottom: 10px;
+}
+#wrapper #offers .apply_scholarship p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+#wrapper #offers .apply_scholarship p span {
+  background: #f2a45c;
+}
+#wrapper #offers .register-now button {
+  width: 171px;
+  padding: 10px 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  background: linear-gradient(90deg, #3227b3 0%, #477bff 51.56%, #5697e0 91.67%);
+  border-radius: 10px;
+  color: #ffffff;
+}
+#wrapper #dardania {
+  background-color: #031c43;
+}
+#wrapper #dardania .speak {
+  margin-top: 49px;
+}
+#wrapper #dardania .speak h4 {
+  color: #abc5dd;
+  margin-bottom: 20px;
+  padding-bottom: 14x;
+}
+#wrapper #dardania .speak h4 span {
+  color: #82817f;
+}
+#wrapper #dardania .dardaniaquote {
+  margin-bottom: 25px;
+}
+#wrapper #dardania .dardaniaquote h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+}
+#wrapper #dardania .back_endacademy {
+  margin-bottom: 48px;
+  background: url(/images/Frame\ 17344.png) no-repeat;
+  width: 400px;
+  height: 248px;
+  position: relative;
+}
+#wrapper #dardania .back_endacademy::after {
+  position: absolute;
+  content: "Back-End Academy";
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  padding-left: 4px;
+  /* identical to box height */
+  color: #000000;
+  width: 100%;
+  height: 199%;
+  top: 100px;
+  left: 19px;
+  background: url(/images/blank-white.png) no-repeat;
+}
+#wrapper #dardania .buttonbook button {
+  padding: 10px 20px;
+  color: #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  background: #abc5dd;
+  border-radius: 10px;
+}
+#wrapper #dardania .imageofdardania img {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#wrapper #part_forma {
+  background: url(/images/backgroun-mainpage.png);
+  margin-bottom: 60px;
+}
+#wrapper #part_forma .title_forma {
+  display: flex;
+  flex-direction: column;
+  margin-top: 59px;
+}
+#wrapper #part_forma .title_forma h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+}
+#wrapper #part_forma .title_forma h4 span {
+  color: #65a9db;
+}
+#wrapper #part_forma .holdyourspot p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #666666;
+}
+#wrapper #part_forma .forma form {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 11px;
+}
+#wrapper #part_forma .forma form label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #606060;
+}
+#wrapper #part_forma .forma form input {
+  background: #ffffff;
+  background-clip: padding-box, border-box;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px rgb(146, 189, 255) rgb(202, 88, 255), #fff;
+  -o-border-image: #92bdff;
+     border-image: #92bdff;
+}
+#wrapper #part_forma .forma form input ::-moz-placeholder {
+  margin-left: 3px;
+}
+#wrapper #part_forma .forma form input ::placeholder {
+  margin-left: 3px;
+}
+#wrapper #part_forma .forma form select {
+  padding: 8px;
+  border: 1px rgb(146, 189, 255) rgb(202, 88, 255), #fff;
+  -o-border-image: #92bdff;
+     border-image: #92bdff;
+}
+#wrapper #part_forma .forma .clickingapply {
+  margin-top: 24px;
+}
+#wrapper #part_forma .forma .clickingapply p {
+  padding: 0 6px;
+  color: rgb(133, 133, 133);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+}
+#wrapper #part_forma .forma .buttonapply_now {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrapper #part_forma .forma .buttonapply_now button {
+  width: 483px;
+  height: 64px;
+  background: #1f1e9e;
+  border: 1px solid #1452f5;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+@media (max-width: 992px) {
+  #wrapper .top .top-header .contact_numb {
+    display: block;
+  }
+  #wrapper #header {
+    background: white;
+    height: auto;
+  }
+  #wrapper #header .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 7px;
+  }
+  #wrapper #header .hamburger {
+    display: block;
+    text-align: right;
+  }
+  #wrapper #header #mymenu {
+    display: none;
+  }
+  #wrapper #header #mymenu li a {
+    display: flex;
+    justify-content: flex-start;
+    gap: 4px;
+    margin-left: -40px;
+  }
+  #wrapper #header #mymenu.opened {
+    display: block;
+  }
+  #wrapper #banner {
+    color: #292929;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    top: 0;
+  }
+  #wrapper #banner .offer_banner_mobile {
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+  }
+  #wrapper #banner .offer_banner_mobile ::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #4a4945;
+    z-index: -2;
+  }
+  #wrapper #banner .banner_photomob {
+    position: relative;
+    display: block;
+    margin-top: -65px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+  #wrapper #banner .banner_photomob ::after {
+    position: absolute;
+    content: "";
+    width: 55%;
+    top: 0;
+    left: 0;
+    margin-left: 110px;
+    z-index: -1;
+    height: 100%;
+    background: linear-gradient(147.81deg, #031c43 9.83%, rgba(39, 103, 163, 0.7) 96.36%);
+  }
+  #wrapper #banner .banner_photomob .img-parts1 {
+    margin-left: 40px;
+  }
+  #wrapper #banner .offer_banner {
+    display: none;
+  }
+  #wrapper #banner .academy .title_academymob {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #wrapper #banner .academy .title_academymob h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  #wrapper #banner .academy .title_academymob h4 span {
+    color: #5697e0;
+    font-weight: 800;
+  }
+  #wrapper #banner .academy .title_academy {
+    display: none;
+  }
+  #wrapper #banner .academy .img-right {
+    display: none;
+  }
+  #wrapper #banner .academy .informations .register p {
+    text-align: center;
+  }
+  #wrapper #banner .academy .informations .register-now {
+    text-align: center;
+  }
+  #wrapper #main_page {
+    margin: 20px 0;
+  }
+  #wrapper #main_page #middle-nav {
+    display: none;
+  }
+  #wrapper #main_page #middle-navmob {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #031c43;
+    box-shadow: 0px 37px 46px -11px rgba(74, 73, 69, 0.42);
+    -webkit-backdrop-filter: blur(9px);
+            backdrop-filter: blur(9px);
+    padding: 5px 14px;
+    border-radius: 8px;
+  }
+  #wrapper #main_page #middle-navmob li {
+    list-style: none;
+  }
+  #wrapper #main_page #middle-navmob .first_element {
+    background: #f0a35b;
+    border-bottom: 3px solid #4a4945;
+    border-radius: 4px;
+    padding: 5px 40px;
+  }
+  #wrapper #main_page #middle-navmob .first_element a {
+    padding: 10px 12px;
+    color: #292929;
+    font-weight: 800;
+  }
+  #wrapper #main_page #middle-navmob a {
+    text-decoration: none;
+  }
+  #wrapper #main_page #middle-navmob img {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    margin-right: 4px;
+  }
+  #wrapper #main_page .card_mainpage {
+    margin-bottom: 40px;
+  }
+  #wrapper #main_page .card_mainpage .box {
+    width: 50%;
+    margin: 15px;
+    width: 392px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+  }
+  #wrapper #main_page .card_mainpage .box .body_card {
+    width: 80%;
+  }
+  #wrapper #main_page .front-end .title_frontoback {
+    width: 55%;
+    margin: 0px auto;
+  }
+  #wrapper #main_page .front-end .coding img {
+    width: 300px;
+  }
+  #wrapper .frontendtobackend .coding img {
+    width: 540px;
+  }
+  #wrapper .frontendtobackend .list-paragraph.mobile {
+    margin-bottom: 0;
+  }
+  #wrapper #boxes_students {
+    height: 350px;
+  }
+  #wrapper #boxes_students .mobile_slider {
+    display: block;
+    margin-top: -45px;
+    margin-bottom: 40px;
+  }
+  #wrapper #boxes_students .mobile_slider .slide .boxes1 {
+    margin: 0px auto;
+    margin-top: 5px;
+  }
+  #wrapper #boxes_students .mobile_slider .slide .boxes1 .fullname {
+    position: relative;
+  }
+  #wrapper #boxes_students .mobile_slider .slide .boxes1 .fullname h6 {
+    position: relative;
+  }
+  #wrapper #boxes_students .mobile_slider .slide .boxes1 .fullname h6::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -10px;
+    width: 50%;
+    height: 2px;
+    background-color: #fff;
+  }
+  #wrapper #boxes_students .title_academystudents {
+    width: 342px;
+    margin: 0px auto;
+    margin-top: -150px;
+  }
+  #wrapper #boxes_students .title_academystudents h4 {
+    font-size: 23px;
+  }
+  #wrapper #boxes_students .boxes {
+    display: none;
+  }
+  #wrapper #orientedprogram .desktop_success {
+    display: none;
+  }
+  #wrapper #orientedprogram .mobile_success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 150px;
+    margin-bottom: 65px;
+  }
+  #wrapper #orientedprogram .mobile_success img {
+    width: 320px;
+  }
+  #wrapper #orientedprogram .paragraphs .paragraphs_cols .title_paragraph1 h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  #wrapper #orientedprogram .paragraphs .paragraphs_cols .description p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  #wrapper #curriculum .title-curriculum {
+    margin: 60px 0;
+  }
+  #wrapper #curriculum .title-curriculum h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 14px;
+    color: #fff;
+    margin-bottom: 60px;
+  }
+  #wrapper #curriculum .title-curriculum p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    color: #fff;
+  }
+  #wrapper #projects .title_practical h4 {
+    margin-top: -50px;
+  }
+  #wrapper #projects .title_practical p {
+    margin-top: 14px;
+  }
+  #wrapper #projects .practical_card {
+    width: 324px;
+    margin: 0px auto;
+    margin-bottom: 5px;
+  }
+  #wrapper #lecturer .box-lecturer .lecturer-paragraph {
+    display: none;
+  }
+  #wrapper #lecturer .box-lecturer .mobile-lecturerp {
+    display: block;
+    width: 60%;
+  }
+  #wrapper #lecturer .box-lecturer .mobile-lecturerp p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #ffffff;
+  }
+  #wrapper #lecturer .box-lecturer .linkedin {
+    display: none;
+  }
+  #wrapper #offers .boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #wrapper #offers .box-offer1,
+  #wrapper #offers .box-offer2 {
+    margin: 0px auto;
+  }
+  #wrapper #offers .mostpopular {
+    margin: 0px auto;
+  }
+  #wrapper #offers .box-offer1 {
+    margin-bottom: 60px;
+  }
+}/*# sourceMappingURL=style.css.map */
